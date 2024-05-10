@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet"/>
+
+    <title>Barbearia</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-home">
+        <header>
+
+            <nav class="header-content container">
+                <div class="header-icons" data-aos="fade-down">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>  
+                </div>
+
+                <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/logo.svg" alt="Logo da Barbearia" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500">
+                </div>
+
+                <div data-aos="fade-up">
+                    <a href="" class="header-button">Agendar Horário</a>
+                </div>
+            </nav>
+
+            <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+                <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
+                <p>Horário de funcionamento: 09:00 ás 19:00</p>
+                <a href="" class="button-contact" target="_blank">Agendar horário</a>
+            </main>
+        </header>
+    </div>
+
+    <section class="about">
+        <div class="container about-content">
+            <div data-aos="zoom-in" data-aos-delay="100">
+                <img 
+                src="assets/images.svg" 
+                alt="Imagem sobre a barbearia"
+                >
+            </div>
+
+            <div class="about-description" data-aos="zoom-out-left" data-aos-delay="100">
+                <h2>Sobre</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur. Ornare eget pellentesque proin risus. Orci proin morbi vestibulum convallis leo vestibulum mus. Non duis augue eros mattis a quis sem sodales.</p>
+
+                <p>Horário de funcionamento: <strong>09:00</strong> ás <strong>19:00</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="services-content container" data-aos="zoom-in-down" data-aos-delay="100">
+            <h2>Serviços</h2> 
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi magnam ipsa alias est illum quibusdam, vitae eum saepe molestias accusantium quae! Odio quidem tempora in omnis dolores ratione eaque fuga?</p>
+        </div>
+
+
+        <section class="haircuts">
+            <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+                <img src="assets/corte1.png" alt="Corte de cabelo">
+                
+                <div class="haircut-info">
+                    <strong>Corte</strong>
+    
+                    <button>R$ 45,00</button>
+                </div>
+            </div>
+            <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+                <img src="assets/corte2.png" alt="Barba">
+                
+                <div class="haircut-info">
+                    <strong>Barba</strong>
+    
+                    <button>R$ 25,00</button>
+                </div>
+            </div>
+            <div class="haircut" data-aos="fade-up" data-aos-delay="350">
+                <img src="assets/corte3.png" alt="Sombrancelha">
+                
+                <div class="haircut-info">
+                    <strong>Sombrancelha</strong>
+    
+                    <button>R$ 15,00</button>
+                </div>
+            </div>
+        </section>
+    </section>  
+
+    <div class="services">
+        <h2 data-aos="zoom-in-down" data-aos-delay="100">Venha conhecer</h2>
+    </div>
+
+    <iframe 
+    width="100%"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.0288245295783!2d-46.68004855513575!3d-23.67492716379301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce501ac3b77f8f%3A0xdaa230261180506a!2sShopping%20Interlagos!5e0!3m2!1spt-BR!2sbr!4v1715360210738!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer class="footer">
+        <div class="footer-icons">
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            
+            <a href="#">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>  
+        </div>
+
+        <div>
+            <img src="assets/logo.svg" alt="Logo"/>
+        </div>
+
+        <p>Copyright 2024 | Dev Barbearia  - Todos os direitos reservados.</p>
+    </footer>
+
+    <a href=""
+    class="btn-whatssapp"
+    target="_blank"
+    data-aos="zoom-in-up"
+    data-aos-delay="400"
+    >
+        <img src="assets/whatssapp.svg" alt="Botao Whatssapp">
+
+        <span class="tooltip-text">Agende seu horário</span>
+    </a>
+    
+
+    <script src="js/script.js"></script>
+</body>
+
+
+<script src="https://kit.fontawesome.com/74f38f2be5.js" crossorigin="anonymous"></script>
+</html>
